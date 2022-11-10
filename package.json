@@ -1,0 +1,36 @@
+{
+  "name": "vue3-project",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build:prod": "vite build",
+    "build:stage": "vite build --mode staging",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@element-plus/icons-vue": "^2.0.10",
+    "axios": "0.27.2",
+    "dayjs": "^1.11.6",
+    "element-plus": "^2.2.20",
+    "js-cookie": "^3.0.1",
+    "lodash-es": "^4.17.21",
+    "pinia": "^2.0.13",
+    "vue": "^3.2.25",
+    "vue-router": "^4.0.13"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.24",
+    "@vitejs/plugin-vue": "^2.3.1",
+    "eslint": "^8.27.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-vue": "^9.7.0",
+    "prettier": "^2.6.2",
+    "sass": "^1.56.0",
+    "unocss": "^0.46.3",
+    "unplugin-auto-import": "^0.7.1",
+    "unplugin-vue-components": "^0.19.3",
+    "vite": "^2.9.2"
+  }
+}
